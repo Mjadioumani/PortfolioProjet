@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texte avec Ligne Verticale</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left-text {
+            margin-right: 10px; /* Espace entre le texte et la ligne */
+        }
+        .right-text {
+            margin-left: 10px; /* Espace entre la ligne et le texte */
+        }
+        .vertical-line {
+            border-left: 2px solid black; /* La ligne verticale */
+            height: 30px; /* Hauteur de la ligne */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-text">Texte à gauche</div>
+        <div class="vertical-line"></div>
+        <div class="right-text">Texte à droite</div>
+    </div>
+</body>
+</html>

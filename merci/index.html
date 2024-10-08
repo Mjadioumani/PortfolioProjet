@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mon Site Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="menuToggle">
+            &#9776; <!-- Symbole pour le menu hamburger -->
+        </div>
+        <div class="logo">
+            <img src="img/jean.jpeg" alt="Petite photo">
+        </div>
+        <div class="menu" id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="stack.html">Stack</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social" id="menu">
+                <a href="" target="_blank"><img src="img/sociale.png" alt="instagram logo" width="50"></a>
+                <a href="" target="_blank"> <img src="img/facebook.png" alt="facebook logo" width="50"></a>
+                <a href="" target="_blank"><img src="img/linkedin.png" alt="linkedin" width="50"></a>
+                <a href="" target="_blank"><img src="img/whatsapp.png" alt="whatsapp logo" width="50"></a>
+            </div>
+        </div>
+    </header>
+        
+
+    <main>
+        <article class="hero">
+            <section class="intro">
+                    <h1>Bonjour ! Je M'appelle Adioumani.</h1>
+                    <p>Concepteur de sites web passionné, j'ai le don de transformer les idées en sites web
+                        visuellement étonnants et conviviaux. J'aime créer des expériences utilisateur uniques
+                        et amusantes, qui captivent et engagent.</p>
+                    <div class="contact-inf">
+                        <address>
+                            Côte d'Ivoire, Abidjan
+                        </address>
+                        <button onclick="window.location.href='about.html'">Qui suis-je ?</button>
+                    </div>    
+            </section>
+
+            <!--
+               Projet récent 
+            -->
+
+            <section class="hero">
+                    <div class="projet_recent">
+                        <h2>Projets Récents</h2>
+                        <div class="project-gallery">
+                            <div class="project-item">
+                                <img src="img/projet2.avif" alt="Description du projet 1">
+                                <h5>Web Design</h5>
+                                <p>Création De Sites Web Esthétiques</p>
+                            </div>
+                            <div class="project-item">
+                                <img src="img/projet1.avif" alt="Description du projet 2">
+                                <h5>Web Development</h5>
+                                <p>Développement De Sites Web Interactifs</p>
+                            </div>
+                        </div>
+                        <div class="containe">
+                            <div class="separatore">
+                            </div>
+                            <div class="box">
+                              <button  class="button" onclick="window.location.href='projects.html'">Voir plus de projet</button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!--
+               Avis des clients 
+            -->
+            <section class="hero">
+                    <div class="avis">
+                        <h2>Mots aimables des clients</h2>
+                        <div class="avis-client">
+                            <div class="avis-item">
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                                <p class="avis-message">"Travailler avec Patricia 
+                                    en tant qu'indépendante a été une expérience fantastique.
+                                     C'est une créatrice talentueuse et une excellente communicatrice. 
+                                     Elle reussit à mettre en valeur ses idées et à 
+                                     les transmettre aux clients avec un style visuel attractif."</p>
+                                <div class="client-info">
+                                    <img src="img/client.jpeg" alt="photo client 1" class="client-photo">
+                                    <div class="client-details">
+                                        <h5 class="client-name">Jean Forcen</h5>
+                                        <p class="client-job">Web Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="avis-item">
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">☆</span>
+                                </div>
+                                <p class="avis-message">"Travailler avec Patricia en tant qu'indépendante 
+                                    a été une expérience fantastique. C'est une créatrice 
+                                    talentueuse et une excellente communicatrice. 
+                                    Elle a réussi à mettre en valeur ses idées et à les transmettre 
+                                    aux clients avec un style visuel attractif".
+                                    </p>
+                                <div class="client-info">
+                                    <img src="img/client.jpeg" alt="photo client 2" class="client-photo">
+                                    <div class="client-details">
+                                        <h5 class="client-name">Grenlich Forcen</h5>
+                                        <p class="client-job">Développeur Web</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="avis-item">
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">☆</span>
+                                </div>
+                                <p class="avis-message">"Travailler avec Patricia en tant qu'indépendante 
+                                    a été une expérience fantastique. C'est une créatrice 
+                                    talentueuse et une excellente communicatrice.
+                                    elle a réussi à mettre en valeur ses idées et à les transmettre 
+                                    aux clients avec un style visuel attractif".
+                                    </p>
+                                <div class="client-info">
+                                    <img src="img/client.jpeg" alt="photo client 2" class="client-photo">
+                                    <div class="client-details">
+                                        <h5 class="client-name">Grenlich Forcen</h5>
+                                        <p class="client-job">Développeur Web</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <div class="separator"></div>
+            
+            <!--
+               Stack technique
+            -->
+
+            <section class="intro">
+                    <h2>Stack</h2>
+                    <div class="stack-container">
+                        <div class="stack-item">
+                            <img src="img/figma.png" alt="HTML Icon" class="stack-icon">
+                            <div class="stack-text">
+                                <h3>Figma</h3>
+                                <p>colaborative design</p>
+                            </div>
+                        </div>
+                        <div class="stack-item">
+                            <img src="img/css.png" alt="CSS Icon" class="stack-icon">
+                            <div class="stack-text">
+                                <h3>CSS</h3>
+                                <p>Cascading Style</p>
+                            </div>
+                        </div>
+                        <div class="stack-item">
+                            <img src="img/chatgpt.png" alt="JavaScript Icon" class="stack-icon">
+                            <div class="stack-text">
+                                <h3>ChatGPT</h3>
+                                <p>Content Generation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="containe">
+                        <div class="separatore">
+                        </div>
+                        <div class="box">
+                          <button  class="button" onclick="window.location.href='stack.html'">Voir plus de stack</button>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="mot-de-fin">
+                    <h2>Let's Connect</h2>
+            </section>
+            <footer class="footer">
+                <div class="footer-left">
+                    <p>&copy; 2024 Your Website</p>
+                </div>
+                <div class="footer-right">
+                    <p>Contact us: adioumanijeanmartinienfabrice@gmail.com</p>
+                </div>
+            </footer>
+        </article>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
